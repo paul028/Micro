@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="org.dnstv.botcontroller.MainActivity">
+
+    <Button
+        android:id="@+id/btnup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="UP"
+
+        />
+    <Button
+        android:id="@+id/btndown"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="down"
+
+        />
+    <Button
+        android:id="@+id/btnleft"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Left"
+
+        />
+    <Button
+        android:id="@+id/btnright"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Right"
+
+        />
+    <Button
+        android:id="@+id/btnkick"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="kick"
+
+        />
+    <Button
+        android:id="@+id/btnexit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="exit"
+
+        />
+
+</LinearLayout>
+

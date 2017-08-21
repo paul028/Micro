@@ -1,0 +1,23 @@
+ULTIBOARD DRILL REPORT
+
+Design: Soccer Bot- Mainboard
+
+DRILL FILE SETTINGS
+Excellon 2, Absolute, Metric, 3.4 
+
+
+DEFINITION COPPER LAYERS
+Copper Top
+Copper Bottom
+
+
+--------------------------------------------------------------------
+
+DRILLFILE                                              LAMINATION
+Soccer Bot- Mainboard - Copper Top-Copper Bottom.drl   Copper Top .. Copper Bottom
+
+TOOL     SIZE   TYPE  COUNT
+   1   0.8890    PTH     82
+   2   0.9949    PTH      8
+   3   4.0000    PTH      3
+   4   0.1778    PTH     10
