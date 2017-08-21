@@ -15,7 +15,8 @@ import java.io.OutputStream;
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
     OutputStream outputStream;
     String command;
-    Button up,down,left,right,kick,exit;
+    short gears=1;
+    Button up,down,left,right,kick,exit,gear;
     private Handler handler = new Handler();
     private Runnable runnable = new Runnable() {
         @Override
@@ -117,6 +118,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         kick = (Button) findViewById(R.id.btnkick);
         kick.setOnClickListener(this);
 
+        gear = (Button) findViewById(R.id.btngear);
+        gear.setOnClickListener(this);
+
         exit = (Button) findViewById(R.id.btnexit);
         exit.setOnClickListener(this);
     }
@@ -153,6 +157,19 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         if(v.getId()==R.id.btnkick)
         {
             send("5");
+        }
+        if(v.getId()==R.id.btngear)
+        {
+            send("6");
+            gears++;
+            if(gears>3)
+            {
+                gears=1;
+                gear.setText("Gear: 1" );
+            }
+            else {
+                gear.setText("Gear: " + gears);
+            }
         }
         if(v.getId()==R.id.btnexit)
         {

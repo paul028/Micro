@@ -43,6 +43,13 @@
 
         />
     <Button
+        android:id="@+id/btngear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Gear 1"
+
+        />
+    <Button
         android:id="@+id/btnexit"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
